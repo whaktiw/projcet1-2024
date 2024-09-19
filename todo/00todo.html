@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+  
+    <hr>
+    <div class="container shadow mx-auto mt-5 p-5 w-70">
+        <h2>나의 할일 관리 장하랑</h2>
+        <hr>
+        <div class="input-group">
+          <input id="item" class="form-control" type="text" placeholder="할일을 입력하세요">
+          <button id="newBtn" type="button" class="btn btn-info" onclick="addItem()">새로입력</button>
+        </div>
+        <hr>
+        <ul id="todolist" class="list-group"></ul>
+      </div>
+        
+      <script src="00todo.js"></script>
+</body>
+</html>
